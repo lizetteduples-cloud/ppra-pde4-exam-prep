@@ -1,0 +1,23 @@
+{
+  "name": "ppra-pde4-exam-prep",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Capacitor Android package for the PPRA PDE4 Exam Prep app.",
+  "scripts": {
+    "verify:www": "node tools/verify-www.mjs",
+    "android:add": "cap add android",
+    "sync": "cap sync android",
+    "android:open": "cap open android",
+    "android:debug": "cap run android",
+    "android:assemble": "cd android && gradlew.bat assembleDebug",
+    "android:bundle": "cd android && gradlew.bat bundleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
+    "@revenuecat/purchases-capacitor": "^13.2.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}

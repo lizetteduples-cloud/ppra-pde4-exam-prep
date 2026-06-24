@@ -1,0 +1,11 @@
+{
+  "appId": "za.co.ppra.pde4prep",
+  "appName": "PPRA PDE4 Exam Prep",
+  "webDir": "www",
+  "backgroundColor": "#f4f7fa",
+  "android": {
+    "backgroundColor": "#f4f7fa",
+    "minWebViewVersion": 60,
+    "webContentsDebuggingEnabled": false
+  }
+}

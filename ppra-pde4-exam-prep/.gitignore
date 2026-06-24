@@ -1,0 +1,10 @@
+node_modules/
+.tooling/
+dist/
+build/
+.gradle/
+*.jks
+*.keystore
+android/local.properties
+android/keystore.properties
+!android-keystore.example.properties

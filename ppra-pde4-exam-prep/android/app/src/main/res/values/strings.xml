@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PPRA PDE4 Exam Prep</string>
+    <string name="title_activity_main">PPRA PDE4 Exam Prep</string>
+    <string name="package_name">za.co.ppra.pde4prep</string>
+    <string name="custom_url_scheme">za.co.ppra.pde4prep</string>
+</resources>

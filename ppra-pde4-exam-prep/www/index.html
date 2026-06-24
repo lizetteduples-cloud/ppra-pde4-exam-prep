@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PPRA PDE4 Exam Prep</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <div class="brand">
+          <div class="brand-mark">P4</div>
+          <div>
+            <strong>PPRA PDE4</strong>
+            <span>Exam Prep</span>
+          </div>
+        </div>
+        <nav>
+          <button class="nav-button active" data-view="home">Dashboard</button>
+          <button class="nav-button" data-view="topics">Topics</button>
+          <button class="nav-button" data-view="progress">Progress</button>
+          <button class="nav-button" data-view="upgrade">Upgrade</button>
+          <button class="nav-button" data-view="profile">Settings</button>
+        </nav>
+        <div class="sidebar-footer">
+          <span id="planLabel">Free plan</span>
+          <button id="restoreButton" type="button">Restore purchases</button>
+        </div>
+      </aside>
+
+      <main class="main-panel">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">South African estate agent exam prep</p>
+            <h1 id="viewTitle">Dashboard</h1>
+          </div>
+          <div class="topbar-actions">
+            <button id="examButton" class="primary-button" type="button">Start Exam Simulation</button>
+          </div>
+        </header>
+
+        <section id="homeView" class="view active"></section>
+        <section id="topicsView" class="view"></section>
+        <section id="quizView" class="view"></section>
+        <section id="resultsView" class="view"></section>
+        <section id="progressView" class="view"></section>
+        <section id="upgradeView" class="view"></section>
+        <section id="profileView" class="view"></section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
